@@ -15,6 +15,7 @@
 		D405F7632444C007005FDB1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D405F7622444C007005FDB1D /* Preview Assets.xcassets */; };
 		D405F7662444C007005FDB1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D405F7642444C007005FDB1D /* LaunchScreen.storyboard */; };
 		D405F7712444C008005FDB1D /* HermesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D405F7702444C008005FDB1D /* HermesTests.swift */; };
+		D405F77F2444C0DD005FDB1D /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D405F77E2444C0DD005FDB1D /* WelcomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		D405F76C2444C008005FDB1D /* HermesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HermesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D405F7702444C008005FDB1D /* HermesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HermesTests.swift; sourceTree = "<group>"; };
 		D405F7722444C008005FDB1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D405F77E2444C0DD005FDB1D /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		D405F7552444C004005FDB1D /* Hermes */ = {
 			isa = PBXGroup;
 			children = (
+				D405F77B2444C0A8005FDB1D /* Welcome */,
 				D405F7562444C004005FDB1D /* AppDelegate.swift */,
 				D405F7582444C004005FDB1D /* SceneDelegate.swift */,
 				D405F75D2444C004005FDB1D /* ContentView.swift */,
@@ -108,6 +111,14 @@
 				D405F7722444C008005FDB1D /* Info.plist */,
 			);
 			path = HermesTests;
+			sourceTree = "<group>";
+		};
+		D405F77B2444C0A8005FDB1D /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				D405F77E2444C0DD005FDB1D /* WelcomeView.swift */,
+			);
+			path = Welcome;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D405F77F2444C0DD005FDB1D /* WelcomeView.swift in Sources */,
 				D405F7572444C004005FDB1D /* AppDelegate.swift in Sources */,
 				D405F75C2444C004005FDB1D /* Hermes.xcdatamodeld in Sources */,
 				D405F75E2444C004005FDB1D /* ContentView.swift in Sources */,
